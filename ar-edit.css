@@ -1,0 +1,193 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(../css/fonts/BooksFonts.ttf);
+}
+
+body,html,.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6,p,a,span {
+	font-family: myFirstFont !important;
+}
+
+.header_lang {
+    left: 57px;
+	right: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.header_contact span.phone_no ,.banner-slider ,.slider ,.full-partners ,.full-testimonial ,.our_productsWrap ,.product_details ,.full-bestSeller ,.product_details .small_img .owl-carousel {
+	direction: ltr;
+}
+
+.full-banner {
+	background: url(../img/banner/ar-01.jpg) no-repeat;
+	background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+}
+
+.banner-content ,.banner-content p ,.about-content ,.product-content ,.offer-content ,.latest-news-grid ,.footer_widget ,.news-content ,.hero_section ,.blog_part ,.blogdetails_part ,.order_part ,.product_details ,.product_tabber {
+	text-align: right;
+}
+
+.banner-content p {
+	width: 100%;
+}
+
+.full-about {
+	background: url(../img/ar-about-banner.jpg);
+	min-height: 200px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.about-content {
+    padding-left: 110px;
+	padding-right: 0;
+}
+
+.about-icon-text .abt-text h2 {
+    margin-right: 16px;
+    margin-left: auto;
+}
+
+.position-top-right ,.position-bottom-right {
+    left: 10px;
+	right: auto;
+}
+
+.position-bottom-left {
+    right: 10px;
+	left: auto;
+}
+
+.full-offer::after {
+    content: "";
+    position: absolute;
+    bottom: -310px;
+    left: 40%;
+    transform: translateX(-50%);
+    height: 600px;
+    width: 500px;
+    background: url(../img/banner/ar-fruits.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    z-index: -1;
+}
+
+.news-content .date-react .date {
+	margin-left: 40px;
+	margin-right: 0;
+}
+
+.footer_widget_content li i {
+    padding-right: 0;
+	padding-left: 15px;
+}
+
+.full-offer::before {
+    left: 40%;
+}
+
+.hero_section {
+	background: url(../img/ar-product_hero_section_bg.jpg);
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    position: relative;
+}
+
+.png_img {
+    right: 0px;
+	left: auto;
+}
+
+.footer_widget_title h2 {
+    font-size: 30px;
+}
+
+.customer_review ul li {
+    padding-left: 50px;
+	padding-right: 0;
+}
+
+.producudetails_content strong {
+	padding-left: 15px;
+    padding-right: 0;
+}
+
+.btn::after {
+    right: 0;
+	left: auto;
+}
+
+.add_to_cart {
+	float: right;
+}
+
+.product-slider .slick-prev {
+    left: 20px;
+	right: auto;
+}
+
+.product-slider .slick-next {
+	left: auto;
+	right: 88%;
+}
+
+.banner-content h1 {
+    font-size: 65px;
+}
+
+.features-box h3 {
+    font-size: 24px;
+}
+
+.full-about .about-content h3 {
+    font-size: 32px;
+}
+
+.offer-content h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    padding-top: 10px;
+}
+
+.herosection_content h2 {
+    font-size: 40px;
+}
+
+#product {
+	direction: rtl;
+}
+
+.product-name a {
+    font-size: 20px;
+}
+
+.tab-pane ul li {
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.section-title {
+	font-size: 32px;
+}
+
+/*	----------------------------------------------------------
+	Responsive Structure
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = */
+@media only screen and ( min-width: 320px) and ( max-width: 767px ) {
+	 
+}
+
+
+
+
+
+
+
+
